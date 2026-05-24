@@ -1,5 +1,13 @@
 #EXTM3U
-#EXTINF:-1,SuperSport 1
-http://yourstreamlink1
-#EXTINF:-1,ESPN
-http://yourstreamlink2
+
+#EXTINF:-1 group-title="News",Example News Channel
+http://your-stream-link-here/news.m3u8
+
+#EXTINF:-1 group-title="Sports",Example Sports Channel
+http://your-stream-link-here/sports.m3u8
+
+#EXTINF:-1 group-title="Entertainment",Example Channel 1
+http://your-stream-link-here/channel1.m3u8
+
+#EXTINF:-1 group-title="Entertainment",Example Channel 2
+http://your-stream-link-here/channel2.m3u8
